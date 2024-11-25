@@ -18,5 +18,6 @@ resource "azurerm_resource_group" "test" {
   location = "francecentral"
   tags = {
 Name = "Test for git"
+IaC = "True"
   }
 }
